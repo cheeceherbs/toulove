@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <style type="text/css">
+      div { padding: 10px}
+      span { color: red}
+    </style>
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="level_master.js"></script>
+    <script src="cal.js"></script>
+  </head>
+  <body>
+    <div>
+      刀种：<select id="swr_type"></select>
+    </div>
+    <div>
+      当前等级：<select id="swr_level"></select>目标等级：<select id="tar_swr_level"></select>
+    </div>
+    <div>
+      所需经验：<span id="req_exp"></span>
+    </div>
+    <div>
+      练级地图：<select id="map"></select>
+    </div>
+    <div>
+      地图经验：<br/>
+      道中 <span id="nor_exp"></span> exp，boss点 <span id="boss_exp"></span> exp，理论周回 <span id="ave_exp"></span> exp
+    </div>
+    <div>
+      周回次数：<br/>
+      部队长+mvp+S/A胜（3.6x） <span id="r1"></span> 次<br/>
+      mvp+S/A胜（2.4x） <span id="r2"></span> 次<br/>
+      队长+S/A胜（1.8x） <span id="r3"></span> 次<br/>
+      基础+S/A胜（1.2x） <span id="r4"></span> 次<br/>
+    </div>
+  </body>
+</html>
